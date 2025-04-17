@@ -38,8 +38,8 @@ banner = r'''
     '''
 
     
-
-
+# Replace with the vulnerable URL
+# target_link = ""
 
 session = requests.Session()
 session.cookies.set('PHPSESSID', 'oh2qj8vuo8b1o3rkf2gqctf8lg')
